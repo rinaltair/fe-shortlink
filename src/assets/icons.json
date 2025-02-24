@@ -1,0 +1,414 @@
+[
+  {
+    "name": "users",
+    "title": "Users"
+  },
+  {
+    "name": "user-group",
+    "title": "UserGroup"
+  },
+  {
+    "name": "analytics",
+    "title": "Analytics"
+  },
+  {
+    "name": "user-add",
+    "title": "UserAdd"
+  },
+  {
+    "name": "chevron-down",
+    "title": "ChevronDown"
+  },
+  {
+    "name": "arrow-down",
+    "title": "ArrowDown"
+  },
+  {
+    "name": "arrow-circle-down",
+    "title": "ArrowCircleDown"
+  },
+  {
+    "name": "arrow-box-down",
+    "title": "ArrowBoxDown"
+  },
+  {
+    "name": "chevron-arrow-down",
+    "title": "ChevronArrowDown"
+  },
+  {
+    "name": "chevron-left",
+    "title": "ChevronLeft"
+  },
+  {
+    "name": "arrow-left",
+    "title": "ArrowLeft"
+  },
+  {
+    "name": "arrow-circle-left",
+    "title": "ArrowCircleLeft"
+  },
+  {
+    "name": "arrow-box-left",
+    "title": "ArrowBoxLeft"
+  },
+  {
+    "name": "chevron-arrow-left",
+    "title": "ChevronArrowLeft"
+  },
+  {
+    "name": "chevron-right",
+    "title": "ChevronRight"
+  },
+  {
+    "name": "arrow-right",
+    "title": "ArrowRight"
+  },
+  {
+    "name": "arrow-circle-right",
+    "title": "ArrowCircleRight"
+  },
+  {
+    "name": "arrow-box-right",
+    "title": "ArrowBoxRight"
+  },
+  {
+    "name": "chevron-arrow-right",
+    "title": "ChevronArrowRight"
+  },
+  {
+    "name": "chevron-up",
+    "title": "ChevronUp"
+  },
+  {
+    "name": "arrow-up",
+    "title": "ArrowUp"
+  },
+  {
+    "name": "arrow-circle-up",
+    "title": "ArrowCircleUp"
+  },
+  {
+    "name": "arrow-box-up",
+    "title": "ArrowBoxUp"
+  },
+  {
+    "name": "chevron-arrow-up",
+    "title": "ChevronArrowUp"
+  },
+  {
+    "name": "bag",
+    "title": "Bag"
+  },
+  {
+    "name": "purse",
+    "title": "Purse"
+  },
+  {
+    "name": "bookmark",
+    "title": "Bookmark"
+  },
+  {
+    "name": "cart",
+    "title": "Cart"
+  },
+  {
+    "name": "calendar",
+    "title": "Calendar"
+  },
+  {
+    "name": "missed-call",
+    "title": "MissedCall"
+  },
+  {
+    "name": "call-off",
+    "title": "CallOff"
+  },
+  {
+    "name": "call",
+    "title": "Call"
+  },
+  {
+    "name": "call-ringing",
+    "title": "CallRinging"
+  },
+  {
+    "name": "camera",
+    "title": "Camera"
+  },
+  {
+    "name": "view-grid",
+    "title": "ViewGrid"
+  },
+  {
+    "name": "chart-square-bar",
+    "title": "ChartSquareBar"
+  },
+  {
+    "name": "chat",
+    "title": "Chat"
+  },
+  {
+    "name": "square-x",
+    "title": "SquareX"
+  },
+  {
+    "name": "exclamation-triangle",
+    "title": "ExclamationTriangle"
+  },
+  {
+    "name": "trash",
+    "title": "Trash"
+  },
+  {
+    "name": "badge",
+    "title": "Badge"
+  },
+  {
+    "name": "circle-direction",
+    "title": "CircleDirection"
+  },
+  {
+    "name": "file-invoice",
+    "title": "FileInvoice"
+  },
+  {
+    "name": "save",
+    "title": "Save"
+  },
+  {
+    "name": "pencil-alt",
+    "title": "PencilAlt"
+  },
+  {
+    "name": "pencil",
+    "title": "Pencil"
+  },
+  {
+    "name": "filter",
+    "title": "Filter"
+  },
+  {
+    "name": "adjustment",
+    "title": "Adjustment"
+  },
+  {
+    "name": "folder",
+    "title": "Folder"
+  },
+  {
+    "name": "controller",
+    "title": "Controller"
+  },
+  {
+    "name": "chart-pie",
+    "title": "Chartpie"
+  },
+  {
+    "name": "heart",
+    "title": "Heart"
+  },
+  {
+    "name": "eye-off",
+    "title": "EyeOff"
+  },
+  {
+    "name": "home",
+    "title": "Home"
+  },
+  {
+    "name": "photograph",
+    "title": "Photograph"
+  },
+  {
+    "name": "photo-gallery",
+    "title": "PhotoGallery"
+  },
+  {
+    "name": "exclamation-circle",
+    "title": "ExclamationCircle"
+  },
+  {
+    "name": "square-i",
+    "title": "SquareI"
+  },
+  {
+    "name": "location",
+    "title": "Location"
+  },
+  {
+    "name": "lock-closed",
+    "title": "LockClosed"
+  },
+  {
+    "name": "entry",
+    "title": "Entry"
+  },
+  {
+    "name": "exit",
+    "title": "Exit"
+  },
+  {
+    "name": "message",
+    "title": "Message"
+  },
+  {
+    "name": "dots-circle-horizontal",
+    "title": "DotsCircleHorizontal"
+  },
+  {
+    "name": "dots-square-horizontal",
+    "title": "DotsSquareHorizontal"
+  },
+  {
+    "name": "bell",
+    "title": "Bell"
+  },
+  {
+    "name": "document-arrow-down",
+    "title": "DocumentArrowDown"
+  },
+  {
+    "name": "document-x",
+    "title": "DocumentX"
+  },
+  {
+    "name": "document-minus",
+    "title": "DocumentMinus"
+  },
+  {
+    "name": "document-plus",
+    "title": "DocumentPlus"
+  },
+  {
+    "name": "document-arrow-up",
+    "title": "DocumentArrowUp"
+  },
+  {
+    "name": "document",
+    "title": "Document"
+  },
+  {
+    "name": "key-square",
+    "title": "KeySquare"
+  },
+  {
+    "name": "start",
+    "title": "Start"
+  },
+  {
+    "name": "square-plus",
+    "title": "SquarePlus"
+  },
+  {
+    "name": "user",
+    "title": "User"
+  },
+  {
+    "name": "scanner",
+    "title": "Scanner"
+  },
+  {
+    "name": "search",
+    "title": "Search"
+  },
+  {
+    "name": "location-arrow",
+    "title": "LocationArrow"
+  },
+  {
+    "name": "setting",
+    "title": "Setting"
+  },
+  {
+    "name": "shield-check",
+    "title": "ShieldCheck"
+  },
+  {
+    "name": "shield-x",
+    "title": "ShieldX"
+  },
+  {
+    "name": "eye",
+    "title": "Eye"
+  },
+  {
+    "name": "star",
+    "title": "Star"
+  },
+  {
+    "name": "switch-vertical",
+    "title": "SwitchVertical"
+  },
+  {
+    "name": "square-tick",
+    "title": "SquareTick"
+  },
+  {
+    "name": "offer",
+    "title": "Offer"
+  },
+  {
+    "name": "ticket",
+    "title": "Ticket"
+  },
+  {
+    "name": "clock-circle",
+    "title": "ClockCircle"
+  },
+  {
+    "name": "clock-square",
+    "title": "ClockSquare"
+  },
+  {
+    "name": "lock-open",
+    "title": "LockOpen"
+  },
+  {
+    "name": "save-up",
+    "title": "SaveUp"
+  },
+  {
+    "name": "video",
+    "title": "Video"
+  },
+  {
+    "name": "microphone-on",
+    "title": "MicrophoneOn"
+  },
+  {
+    "name": "microphone",
+    "title": "Microphone"
+  },
+  {
+    "name": "volume",
+    "title": "Volume"
+  },
+  {
+    "name": "volume-off",
+    "title": "VolumeOff"
+  },
+  {
+    "name": "volume-on",
+    "title": "VolumeOn"
+  },
+  {
+    "name": "wallet",
+    "title": "Wallet"
+  },
+  {
+    "name": "brief-case",
+    "title": "BriefCase"
+  },
+  {
+    "name": "circle",
+    "title": "Circle"
+  },
+  {
+    "name": "eye-fish",
+    "title": "EyeFish"
+  },
+  {
+    "name": "document-code",
+    "title": "DocumentCode"
+  }
+]

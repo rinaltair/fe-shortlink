@@ -1,0 +1,399 @@
+.fc-toolbar {
+    gap: 1rem !important;
+}
+
+// APEXCHART
+[dir=rtl] .apexcharts-tooltip-marker {
+    margin-left: 10px !important;
+}
+
+.dropdown .dropdown-menu {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1);
+}
+
+//validation tooltip form
+.custom-warn {
+    margin-bottom: 1rem !important;
+}
+
+//calendar
+.fc-scrollgrid-sync-inner a {
+    color: unset !important;
+}
+
+.fc-day-other {
+    background-color: var(--bs-body-bg) !important;
+}
+
+.fc-dayGridMonth-view,
+.fc-timeGridDay-view {
+    .fc-day-today {
+        background: rgba(112, 22, 208, .04) !important;
+    }
+}
+
+.fc-list-day-side-text {
+    color: rgba(138, 146, 166) !important;
+    font-weight: bold;
+}
+
+.fc-list-day-text {
+    color: rgba(138, 146, 166) !important;
+}
+
+.fc-list-event-dot {
+    opacity: 0.2;
+}
+
+// datatable
+@media (max-width: 1199.98px) {
+    .custom-datatable-entries {
+        .dataTables_length {
+            margin-bottom: 1em !important;
+        }
+    }
+}
+
+//  dashboard page dropdown 
+[dir=rtl] .custom-dropdown-menu-end {
+    transform: translate(60px, 24px) !important;
+}
+
+[dir=rtl] .custom-dropdown-menu-profile {
+    transform: translate(110px, 24px) !important;
+}
+
+[dir=rtl] .custom-dropdown-menu-friends {
+    transform: translate(146px, 24px) !important;
+}
+
+@media (min-width: 922px) {
+    [dir=rtl] .custom-dropdown-rtlsupport {
+        transform: translate(60px, 24px) !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    [dir=rtl] .ms-auto {
+        margin-left: unset !important;
+    }
+}
+
+.flatpickr-weekday {
+    font-size: 80% !important;
+}
+
+// modal fullcreen in design System
+.modal-fullscreen {
+    .modal-title {
+        font-size: 1.5rem;
+    }
+}
+
+// design system list-group
+[data-bs-theme=dark] .custom-list-dark:hover {
+    color: #000;
+}
+
+// design system toggle button
+.custom-toggler-icon {
+    background-image: none !important;
+}
+
+.mid-menu {
+    top: 50% !important;
+}
+
+#d-main .apexcharts-xaxistooltip-bottom {
+    background-color: var(--bs-gray-900);
+    color: var(--bs-card-color);
+}
+
+.dataTables_length {
+    padding-left: unset !important;
+}
+
+.dataTables_filter {
+    padding-right: unset !important;
+}
+
+//buttons Ui Design System
+.iq-color:hover .btn-content {
+    color: white
+}
+
+.fc-scrollgrid,
+.fc-theme-standard td,
+.fc-theme-standard th {
+    border-color: var(--bs-border-color) !important;
+}
+
+[dir=rtl] .iq-sub-card .p-0 {
+    float: right;
+}
+
+// dual-horizontal logo
+[dir=rtl] .nav .navbar-brand {
+    margin-right: 2rem !important;
+    margin-left: 1rem !important;
+}
+
+
+// swipper-slider arrowchart
+@media (min-width:375px) and (max-width: 768px) {
+    .card-slide .card-slie-arrow {
+        left: 35px !important;
+        top: 35px !important;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .iq-navbar .navbar-brand {
+        margin-left: 1rem;
+    }
+}
+
+[dir=rtl] .custom-dropdown-menu-profile {
+    transform: translate(110px, 24px) !important;
+}
+
+[dir=rtl] .custom-dropdown-menu-friends {
+    transform: translate(146px, 24px) !important;
+}
+
+
+////Design system/////
+// BREADCRUMB
+[dir=rtl] .breadcrumb-item+.breadcrumb-item:before {
+    float: right;
+    padding-left: var(--bs-breadcrumb-item-padding-x);
+}
+
+// dropdown button group
+[dir=rtl] .custom-rtl {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+    -webkit-flex-direction: row-reverse !important;
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important;
+}
+
+// toast
+[dir=rtl] .text-muted {
+    padding-left: 10px;
+}
+
+[dir=rtl] .custom-toast-close {
+    .btn-close {
+        margin-right: 0 !important;
+        margin-left: -8px !important;
+    }
+}
+
+// forms
+[dir=rtl] .form-control.is-valid {
+    padding-left: -webkit-calc(1.5em + 1rem);
+    padding-left: calc(1.5em + 1rem);
+    background-position: left -webkit-calc(0.375em + 0.25rem) center;
+    background-position: left calc(0.375em + 0.25rem) center;
+}
+
+[dir=rtl] .iq-form-input {
+    margin-left: 39rem !important;
+}
+
+[dir=rtl] .iq-form-input2 {
+    margin-left: 37rem !important;
+}
+
+// typography
+[dir=rtl] .rtl-marker {
+    padding-right: 2rem;
+}
+
+// userprofile
+@media (max-width: 576px) {
+    .profile-tab .nav-link {
+        padding-inline: 0.75rem !important;
+    }
+}
+
+// vector map
+.leaflet-control-container {
+
+    .leaflet-top,
+    .leaflet-bottom {
+        z-index: 909;
+    }
+}
+
+.custom-inline:not(:last-child) {
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 921px) {
+    .nav .custom-navbar-inner2:not(.navbar-dashboard-brand) {
+        padding-left: 10px !important;
+        padding-right: 20px !important;
+    }
+
+    nav .custom-navbar-inner:not(.navbar-dashboard-brand) {
+        padding: 0 calc(var(--bs-gutter-x, 0.75rem)*2) !important;
+    }
+}
+
+
+@media (max-width: 990px) {
+    [dir=rtl] {
+        .nav .custom-navbar-inner {
+            padding: 0 calc(var(--bs-gutter-x, 0.75rem)*2) !important;
+        }
+    }
+}
+
+[dir=rtl] .nav .navbar-brand {
+    margin-left: 1rem !important;
+}
+
+.custom-transform {
+    transform: translate(0px, 26px) !important;
+}
+
+@media (max-width: 576px) {
+    .custom-transform {
+        transform: translateY(35px) !important;
+    }
+}
+
+[dir=rtl] .custom-dropdown-itemrtl {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+[dir=rtl] .dt-bootstrap5 .dataTables_filter {
+    float: left;
+    margin-left: -22px !important;
+}
+
+.custom-drop {
+    margin-left: 5px;
+    top: 96% !important;
+}
+
+.custom-margin {
+    top: 96% !important;
+}
+
+/* Apply the CSS only for desktop screens */
+@media (max-width: 992px) {
+    .custom-toggle-margin .dropdown-toggle::after {
+        margin-top: 0.5rem;
+    }
+}
+
+
+// design-system
+// calendar
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+    background: var(--bs-gray-900) !important;
+}
+
+// sidebar scrollbar
+.elem-list {
+    max-height: calc(80vh + 4rem);
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        border-radius: 10px;
+    }
+
+    /* Scroll Track */
+    &::-webkit-scrollbar-track {
+        background: var(--bs-body-bg);
+        border-radius: 10px;
+    }
+
+    /* Scroll Handle */
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        transition: all 400ms ease;
+        cursor: pointer;
+    }
+
+    /* Scroll Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba($dark, 0.2);
+        border-radius: 10px;
+        transition: all 400ms ease;
+        cursor: pointer;
+    }
+}
+
+//  navbar
+.custom-popper[data-bs-popper] {
+    right: 0;
+    left: auto;
+}
+
+// alert
+.alert-dismissible {
+    .btn-close {
+        filter: invert(0.4) !important;
+    }
+}
+
+// flatpikr
+.custom-flatpickr-size {
+    .flatpickr-current-month {
+        font-size: 118% !important;
+    }
+
+    .flatpickr-day {
+        font-size: 14px !important;
+    }
+
+    .rangeMode .flatpickr-day {
+        margin-top: 0px !important;
+    }
+}
+
+// calendar
+.fc .fc-button-primary:focus,
+.fc .fc-button:focus {
+    box-shadow: none !important;
+}
+
+// alert
+[dir=rtl] .custom-closebtn-direction {
+    .btn-close {
+        transform: translate(-670px, 0px) !important;
+    }
+}
+
+[data-bs-theme=dark] .custom-closebtn-direction {
+    .btn-close {
+        filter: var(--bs-btn-close-white-filter) !important;
+    }
+}
+
+.custom-closebtn-color {
+    .btn-close {
+        filter: var(--bs-btn-close-white-filter) !important;
+    }
+}
+
+// .sdfsef {
+//     .btn.show {
+//         border-color: #ffffff !important;
+//     }
+// }
+
+ .kanban-dropdown-border {
+    .btn.show {
+        border-color: var(--bs-gray-900) !important;
+    }
+}
