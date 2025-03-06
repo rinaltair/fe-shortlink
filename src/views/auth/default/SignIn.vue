@@ -43,7 +43,11 @@
                   </div> -->
                 </div>
                 <div class="d-flex justify-content-center">
-                  <button type="submit" class="btn btn-primary">Sign In</button>
+                  <button type="submit" class="btn btn-primary" :disabled="isLoading">
+                    <span v-if="isLoading" class="spinner-border spinner-border-sm" role="status"
+                      aria-hidden="true"></span>
+                    <span v-if="!isLoading">Sign In</span>
+                  </button>
                 </div>
                 <!-- TO DO: Add Sign Up -->
                 <p class="mt-3 text-center">Don’t have an account? <router-link :to="'/auth/register'"
