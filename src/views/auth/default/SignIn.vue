@@ -89,7 +89,6 @@ const signIn = async () => {
     isLoading.value = true
     await authStore.login({ username: username.value, password: password.value })
   } catch (error) {
-    console.error('Login failed:', error)
     alert(error)
   } finally {
     isLoading.value = false
