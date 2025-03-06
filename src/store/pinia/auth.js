@@ -43,6 +43,17 @@ export const useAuthStore = defineStore('auth', {
     //   }
     // },
 
+    /**
+     * Authenticates the user with the provided credentials.
+     * Retrieves an access token upon successful login and stores it.
+     * Redirects the user to the default dashboard.
+     * Handles any authentication errors that occur during the login process.
+     *
+     * @param {Object} credentials - The user's login credentials.
+     * @param {string} credentials.username - The username of the user.
+     * @param {string} credentials.password - The password of the user.
+     */
+
     async login(credentials) {
       try {
         const token = await AuthService.login(credentials)
@@ -53,13 +64,17 @@ export const useAuthStore = defineStore('auth', {
 
         router.push({ name: 'default.dashboard' })
       } catch (error) {
-        console.log(error)
-
         this.handleAuthError(error)
       }
     },
 
-    logout() {
+    /**
+     * Logs out the user by clearing the authentication token and redirecting to the login page.
+     * It removes the token from localStorage and deletes the Authorization header from the API.
+     * Finally, it navigates the user to the login route.
+     */
+
+      logout() {
       this.token = null
       //   this.user = null
       localStorage.removeItem('token')
@@ -67,6 +82,10 @@ export const useAuthStore = defineStore('auth', {
       router.push({ name: 'auth.login' })
     },
 
+    /**
+     * Set Authorization header for API requests if token is present.
+     * @private
+     */
     setAuthHeaders() {
       if (this.token) {
         api.defaults.headers.Authorization = `Bearer ${this.token}`
