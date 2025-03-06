@@ -2,11 +2,16 @@ import api from '@/utilities/axios'
 
 export const AuthService = {
   async login(credentials) {
-    let response = await api.post('/auth/token', {
-      username: credentials.username,
-      password: credentials.password
-    })
-
+    let response = await api.post(
+      '/auth/token',
+      {
+        username: credentials.username,
+        password: credentials.password
+      },
+      {
+        isAuthRequest: true
+      }
+    )
     return response.data.access_token
   }
 }
