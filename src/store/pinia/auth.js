@@ -74,7 +74,7 @@ export const useAuthStore = defineStore('auth', {
      * Finally, it navigates the user to the login route.
      */
 
-      logout() {
+    async logout() {
       this.token = null
       //   this.user = null
       localStorage.removeItem('token')
