@@ -1,5 +1,7 @@
 // stores/auth.store.js
 import { defineStore } from 'pinia'
+import { jwtDecode } from 'jwt-decode'
+
 import { AuthService } from '@/services/auth.services'
 import api from '@/utilities/axios'
 import router from '@/router'
@@ -59,6 +61,10 @@ export const useAuthStore = defineStore('auth', {
         const token = await AuthService.login(credentials)
         this.setToken(token)
 
+        // Fetch user profile
+        const user = jwtDecode(token)
+        this.setUser(user)
+
         // Redirect based on role
         // const redirectPath = this.userRole === 'admin' ? '/admin/dashboard' : '/user/dashboard'
 
@@ -76,8 +82,9 @@ export const useAuthStore = defineStore('auth', {
 
     async logout() {
       this.token = null
-      //   this.user = null
+      this.user = null
       localStorage.removeItem('token')
+      localStorage.removeItem('user')
       delete api.defaults.headers.Authorization
       router.push({ name: 'auth.login' })
     },
