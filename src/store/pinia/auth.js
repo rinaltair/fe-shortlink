@@ -9,7 +9,7 @@ import router from '@/router'
 export const useAuthStore = defineStore('auth', {
   state: () => ({
     token: localStorage.getItem('token') || null,
-    user: null
+    user: JSON.parse(localStorage.getItem('user')) || null
   }),
 
   getters: {
@@ -18,14 +18,6 @@ export const useAuthStore = defineStore('auth', {
   },
 
   actions: {
-    initialize() {
-      // Call this when app starts to check existing token
-      if (this.token) {
-        this.setAuthHeaders()
-        this.fetchUserProfile()
-      }
-    },
-
     setToken(token) {
       this.token = token
       localStorage.setItem('token', token)
@@ -34,16 +26,8 @@ export const useAuthStore = defineStore('auth', {
 
     setUser(user) {
       this.user = user
+      localStorage.setItem('user', JSON.stringify(user))
     },
-
-    // async fetchUserProfile() {
-    //   try {
-    //     const user = await AuthService.getProfile()
-    //     this.setUser(user)
-    //   } catch (error) {
-    //     this.handleAuthError(error)
-    //   }
-    // },
 
     /**
      * Authenticates the user with the provided credentials.

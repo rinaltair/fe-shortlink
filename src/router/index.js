@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { useAuthStore } from '@/store/pinia/auth'
 
 // Design System Routes
 
@@ -367,6 +368,24 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   base: process.env.BASE_URL,
   routes
+})
+
+router.beforeEach(async (to, from, next) => {
+  const authStore = useAuthStore()
+  if (to.matched.some((record) => record.meta.auth)) {
+    if (authStore.isAuthenticated && authStore.user) {
+      // Check if the user has the required role
+      if (to.meta.role && authStore.user.role !== to.meta.role) {
+        next({ name: 'errors.404' }) // Redirect to login if role doesn't match
+      } else {
+        next() // User is authenticated and has the required role
+      }
+    } else {
+      next({ name: 'auth.login' }) // Redirect to login if not authenticated
+    }
+  } else {
+    next() // No authentication required, proceed to the route
+  }
 })
 
 export default router
